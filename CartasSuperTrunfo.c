@@ -1,14 +1,14 @@
 #include <stdio.h>
 
 int main() {  
-    
+
     char codigo [10];
     char cidade [50];
     int populacao;
     float area;
     float pib;
     int pontos_turisticos;
-
+  // Códigos para a entrada de dados 
     printf("Código da Cidade: ");
     scanf("%s", codigo);
 
@@ -26,7 +26,7 @@ int main() {
 
     printf("Numeros de pontos turísticos: ");
     scanf("%d", &pontos_turisticos);
-    
+  // Código para a saida de dados 
     printf("Informações da Cidade:\n");
     printf("-Código da Carta: %s\n-Nome da Cidade: %s\n", codigo, cidade);
     printf("-População: %d\n", populacao);
