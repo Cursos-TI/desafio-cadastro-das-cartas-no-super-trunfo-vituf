@@ -34,8 +34,8 @@ int main() {
 
    // funçôes para a saida de dados 
     printf("Informações da Cidade:\n");
-    printf("-Código da Carta: %s\n", cidade);
-    printf("-Nome da Cidade: %s\n", codigo);
+    printf("-Código da Carta: %s\n", codigo);
+    printf("-Nome da Cidade: %s\n", cidade);
     printf("-População: %d\n", populacao);
     printf("-Área: %.3f km²\n", area);
     printf("-PIB: %.3f bilhões de reais\n", pib);
