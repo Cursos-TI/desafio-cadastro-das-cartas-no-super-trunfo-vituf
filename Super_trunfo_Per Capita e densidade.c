@@ -39,8 +39,8 @@ int main() {
    per_capita = (float)populacao / pib;
 
    // funçôes de saida das informações da Carta 1
-    printf("Carta 1:\n");
-    printf("EStado: %s\n", estado);
+    printf("** Carta 1 **\n\n");
+    printf("-Estado: %s\n", estado);
     printf("-Código da Carta: %s\n", codigo);
     printf("-Nome da Cidade: %s\n", cidade);
     printf("-População: %d\n", populacao);
@@ -83,8 +83,8 @@ int main() {
    
     // funçôes de saida das informações da Carta 2
 
-    printf("Carta 2:\n");
-    printf("EStado: %s\n", estado);
+    printf("** Carta 2 **\n");
+    printf("-Estado: %s\n", estado);
     printf("-Código da Carta: %s\n", codigo);
     printf("-Nome da Cidade: %s\n", cidade);
     printf("-População: %d\n", populacao);
