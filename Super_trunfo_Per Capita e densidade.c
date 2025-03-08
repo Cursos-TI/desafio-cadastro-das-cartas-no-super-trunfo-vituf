@@ -44,11 +44,11 @@ int main() {
     printf("-Código da Carta: %s\n", codigo);
     printf("-Nome da Cidade: %s\n", cidade);
     printf("-População: %d\n", populacao);
-    printf("-Área: %.3f km²\n", area);
-    printf("-PIB: %.0f bilhões de reais\n", pib);
+    printf("-Área: %.2f km²\n", area);
+    printf("-PIB: %.2f bilhões de reais\n", pib);
     printf("-Numero de pontos turísticos: %d\n", pontos_turisticos);
-    printf("-Densidade Populacional: %.3f\n", densiade);
-    printf("-PIB per Capita: %.3f\n", per_capita);
+    printf("-Densidade Populacional: %.2f\n", densiade);
+    printf("-PIB per Capita: %.2f\n", per_capita);
 
 
     // funcões de das informações da Carta 2
@@ -88,11 +88,11 @@ int main() {
     printf("-Código da Carta: %s\n", codigo);
     printf("-Nome da Cidade: %s\n", cidade);
     printf("-População: %d\n", populacao);
-    printf("-Área: %.3f km²\n", area);
-    printf("-PIB: %.0f bilhões de reais\n", pib);
+    printf("-Área: %.2f km²\n", area);
+    printf("-PIB: %.2f bilhões de reais\n", pib);
     printf("-Numero de pontos turísticos: %d\n", pontos_turisticos);
-    printf("-Densidade Populacional: %.3f\n", densiade);
-    printf("-PIB per Capita: %.3f\n", per_capita);
+    printf("-Densidade Populacional: %.2f\n", densiade);
+    printf("-PIB per Capita: %.2f\n", per_capita);
 
     return 0;  
 }
