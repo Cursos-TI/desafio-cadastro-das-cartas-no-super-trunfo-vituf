@@ -6,7 +6,7 @@ int main() {
    char codigo [10], codigo2 [10];
    char cidade [50], cidade2 [50];
    float area, pib, area2, pib2;
-   float densidade, per_capita, densidade2, per_capita2;
+   float densidade, per_capita, densidade2, per_capita2, superpoder, superpoder2;
    int pontos_turisticos, populacao, pontos_turisticos2, populacao2;
   
    // funcões de entrada das informações da Carta 1
@@ -67,6 +67,8 @@ int main() {
 
    per_capita = (float)populacao / pib;
 
+   superpoder = (float)populacao + area + pib + (float)pontos_turisticos + per_capita + (densidade / 1);
+
    // funçôes de saida das informações da Carta 1
     printf("** Carta 1 **\n\n");
     printf("-Estado: %s\n", estado);
@@ -78,13 +80,16 @@ int main() {
     printf("-Numero de pontos turísticos: %d\n", pontos_turisticos);
     printf("-Densidade Populacional: %.2f\n", densidade);
     printf("-PIB per Capita: %.2f\n", per_capita);
+    printf("Super Poder: %.2f", superpoder);
 
     printf("\n");
     
     //operacões de densidade e PIB per Capita carta 2
-    densidade = (float)populacao2 /  area2;
+    densidade2 = (float)populacao2 /  area2;
    
-    per_capita = (float)populacao2 / pib2;
+    per_capita2 = (float)populacao2 / pib2;
+
+    superpoder2 = (float)populacao2 + area2 + pib2 + (float)pontos_turisticos2 + per_capita2 + (densidade2 / 1);
    
     // funçôes de saida das informações da Carta 2
 
@@ -98,6 +103,7 @@ int main() {
     printf("-Numero de pontos turísticos: %d\n", pontos_turisticos2);
     printf("-Densidade Populacional: %.2f\n",densidade2);
     printf("-PIB per Capita: %.2f\n", per_capita2);
+    printf("Super Poder: %.2f", superpoder2);
 
     printf("\n");
 
