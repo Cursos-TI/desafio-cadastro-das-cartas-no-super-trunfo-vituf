@@ -65,7 +65,7 @@ int main() {
    //operacões de densidade e PIB per Capita carta 1
    densidade = (float)populacao /  area;
 
-   per_capita = (float)populacao / pib;
+   per_capita = pib / (float)populacao;
 
    superpoder = (float)populacao + area + pib + (float)pontos_turisticos + per_capita + (densidade / 1);
 
@@ -87,7 +87,7 @@ int main() {
     //operacões de densidade e PIB per Capita carta 2
     densidade2 = (float)populacao2 /  area2;
    
-    per_capita2 = (float)populacao2 / pib2;
+    per_capita2 = pib2 / (float)populacao2;
 
     superpoder2 = (float)populacao2 + area2 + pib2 + (float)pontos_turisticos2 + per_capita2 + (densidade2 / 1);
    
@@ -116,7 +116,7 @@ int main() {
     printf("-Numero de pontos turísticos: %d\n", pontos_turisticos > pontos_turisticos2);
     printf("-Densidade Populacional: %d\n", densidade < densidade2);
     printf("-PIB per Capita: %d\n", per_capita > per_capita2);
-    printf("-Super Poder: %d", superpoder > per_capita2);
+    printf("-Super Poder: %d", superpoder > superpoder2);
 
 
 
