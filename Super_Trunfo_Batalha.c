@@ -80,7 +80,7 @@ int main() {
     printf("-Numero de pontos turísticos: %d\n", pontos_turisticos);
     printf("-Densidade Populacional: %.2f\n", densidade);
     printf("-PIB per Capita: %.2f\n", per_capita);
-    printf("Super Poder: %.2f", superpoder);
+    printf("-Super Poder: %.2f\n", superpoder);
 
     printf("\n");
     
@@ -103,7 +103,7 @@ int main() {
     printf("-Numero de pontos turísticos: %d\n", pontos_turisticos2);
     printf("-Densidade Populacional: %.2f\n",densidade2);
     printf("-PIB per Capita: %.2f\n", per_capita2);
-    printf("Super Poder: %.2f", superpoder2);
+    printf("-Super Poder: %.2f\n", superpoder2);
 
     printf("\n");
 
@@ -116,6 +116,7 @@ int main() {
     printf("-Numero de pontos turísticos: %d\n", pontos_turisticos > pontos_turisticos2);
     printf("-Densidade Populacional: %d\n", densidade < densidade2);
     printf("-PIB per Capita: %d\n", per_capita > per_capita2);
+    printf("-Super Poder: %d", superpoder > per_capita2);
 
 
 
